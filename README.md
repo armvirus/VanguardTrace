@@ -6,7 +6,7 @@ Welcome to VanguardTrace, a tool designed to decrypt and intercept encrypted imp
 
 ## Overview
 
-I began my journey by delving deep into the mysterious vgk.sys. Through careful analysis, I uncovered the secrets of decrypting specific imports essential for my purposes. Leveraging this knowledge, I engineered a powerful tool capable of encrypting my pointers, enabling seamless substitution and hooking of desired imports.
+I began my exploration of vgk.sys and its import protection mechanisms. One strategy that immediately occurred to me for gaining insight was to employ a patchguard bypass. By hooking potential imports and capturing their return addresses, I could trace back to where vgk.sys calls these imports. This approach led me directly to their decryption algorithm. With a clear understanding of this algorithm, I proceeded to rewrite it for readability and created the complementary encryption function. Additionally, I developed functions to determine the starting offset of the imports encryption "table" using a simple signature scan, and to retrieve the offset of specific imports of interest.
 
 ## Features
 
