@@ -16,9 +16,9 @@ I began my exploration of vgk.sys and its import protection mechanisms. One stra
 - **Automatic Import Table Location**: Automatically locate the start of the encrypted import table using a signature scan.
 - **Offset Identification**: Identify the offset of the desired import for easy manipulation/hooking.
 
-## Usage
+## Example Usage
 
-1. Simply manual map the driver.
+![CiCheckSignedFile](./hook.jpg)
 
 ## License
 
