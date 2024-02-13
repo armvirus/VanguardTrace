@@ -18,7 +18,7 @@ I began my exploration of vgk.sys and its import protection mechanisms. One stra
 
 ## Example Usage
 
-![CiCheckSignedFile](./hook.jpg)
+![CiCheckSignedFile](./hook.png)
 
 ## License
 
